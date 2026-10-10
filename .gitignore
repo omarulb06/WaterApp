@@ -39,3 +39,11 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Release signing material. Back these up offline; do not commit them.
+/credentials/
+credentials.json
+
+# Build artifacts (APKs, bundles)
+*.apk
+*.aab
